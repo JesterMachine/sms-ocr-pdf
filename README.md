@@ -1,13 +1,17 @@
+![Python](https://img.shields.io/badge/python-3.6%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-alpha-lightgrey)
+![Issues](https://img.shields.io/github/issues/JesterMachine/sms-ocr-pdf)
 
 
 ```
-# 📱 Text Message OCR Extractor
+# Text Message OCR Extractor
 
 A Python tool that extracts text from screenshots of text message conversations using OCR (Optical Character Recognition) and compiles them into a searchable, neatly formatted PDF transcript.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Use Cases](#use-cases)
 - [Requirements](#requirements)
@@ -23,13 +27,13 @@ A Python tool that extracts text from screenshots of text message conversations 
 
 ---
 
-## 📖 Overview
+## Overview
 
 This script processes a folder of image files (e.g., `.jpg` or `.png`) that contain text message screenshots. It uses Tesseract OCR to extract the text and creates a single PDF file containing the entire transcript.
 
 ---
 
-## 🧰 Use Cases
+## Use Cases
 
 - Archiving text message conversations for legal or personal documentation  
 - Creating searchable PDFs from phone screenshots  
@@ -38,7 +42,7 @@ This script processes a folder of image files (e.g., `.jpg` or `.png`) that cont
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - **Python** 3.6 or higher  
 - **Tesseract OCR** installed on your system  
@@ -50,7 +54,7 @@ This script processes a folder of image files (e.g., `.jpg` or `.png`) that cont
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Install Python
 
@@ -79,7 +83,7 @@ pip install pytesseract pillow reportlab
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Place screenshots in a folder
 
@@ -113,7 +117,7 @@ A file named `text_message_transcript.pdf` will be created in the **same directo
 
 ---
 
-## 📝 Example Output
+## Example Output
 
 ```text
 --- screenshot_001.png ---
@@ -126,7 +130,7 @@ Jane: Maybe! Let me check.
 
 ---
 
-## ✅ Features
+## Features
 
 - Supports PNG and JPG image formats
 - Outputs a clean, searchable `.pdf` transcript
@@ -137,7 +141,7 @@ Jane: Maybe! Let me check.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - OCR accuracy depends on image clarity and contrast  
 - May struggle with low-quality screenshots or emoji-heavy texts  
@@ -155,7 +159,7 @@ Processing time depends on:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 - **Tesseract not found**:  
   Double-check that Tesseract is installed and its path is correctly set in the script (especially on Windows).
@@ -174,13 +178,13 @@ Processing time depends on:
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See the [LICENSE](./LICENSE) file for full terms.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, suggestions, and issue reports are always welcome!  
 Feel free to open an [issue](https://github.com/JesterMachine/sms-ocr-pdf/issues) or submit a pull request.
